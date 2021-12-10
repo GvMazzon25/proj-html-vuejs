@@ -1,15 +1,20 @@
 <template>
   <header>
-      ciao
+      <Nav />
   </header>
 </template>
 
 <script>
-export default {
+import Nav from '@/components/Nav.vue'
 
+export default {
+    name:'Header',
+    components: {
+        Nav,
+    }
 }
 </script>
 
 <style lang='scss'>
-
+@import '@/style/header.scss'
 </style>

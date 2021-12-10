@@ -1,0 +1,31 @@
+.contain{
+    width: 95%;
+    margin: auto;
+    height: 8vh;
+    color: white;
+    padding-top: 20px;
+    .prime{
+        height: 100%;
+        .logo-box{
+            height: 100%;
+            background-image: url('../assets/footer-logo-1.png');
+            object-fit: contain;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .menue{
+            height: 100%;
+            padding-top: 1.8vh;
+            .col-2{
+                text-align: center;
+            }
+        }
+        .icon-box{
+            padding-top: 1.8vh;
+            .col-4{
+                text-align: center;
+            }
+        }
+    }
+}
