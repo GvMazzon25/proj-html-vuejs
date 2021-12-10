@@ -1,0 +1,31 @@
+.banner1{
+    width: 100%;
+    margin-bottom: 50px;
+    .col-2{
+        .b-box{
+            width: 90%;
+            height: 250px;
+            margin: auto;
+            background-color: rgba(230, 230, 230, 1);
+            .img-box{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+            }
+            .txt-sec{
+                width: 90%;
+                margin: auto;
+                padding-top: 90px;
+                h3{
+                    color: rgba(55, 55, 55, 1);
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+}

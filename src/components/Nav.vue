@@ -3,7 +3,6 @@
       <div class="contain">
         <div class="row prime">
             <div class="col-2 logo-box">
-              
             </div>
             <div class="col-8">
               <div class="row menue">
