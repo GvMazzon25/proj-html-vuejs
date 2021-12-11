@@ -1,12 +1,18 @@
 <template>
-  <div class="contain">
-
+  <div>
+      <section>
+          <h1>The Trusted Name for In-Home Tutoring</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minus quisquam perferendis accusantium, corporis provident expedita impedit magnam odit perspiciatis quia earum saepe temporibus, deleniti iste obcaecati quaerat qui error.</p>
+      </section>
+      <section>
+          <div></div>
+      </section>
   </div>
 </template>
 
 <script>
 export default {
-
+    name:'Section2'
 }
 </script>
 
