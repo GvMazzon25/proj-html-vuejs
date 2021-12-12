@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style lang='scss'>
-@import '@/style/h-banner.scss'
+@import '@/style/h-banner.scss';
 </style>

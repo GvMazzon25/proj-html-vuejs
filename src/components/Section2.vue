@@ -4,8 +4,11 @@
           <h1>The Trusted Name for In-Home Tutoring</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minus quisquam perferendis accusantium, corporis provident expedita impedit magnam odit perspiciatis quia earum saepe temporibus, deleniti iste obcaecati quaerat qui error.</p>
       </section>
-      <section class="img-box">
-          <div></div>
+      <section class="img-banner">
+          <div class="top-box">
+              <div>^</div>
+              <div class="tp">TOP</div>
+          </div>
       </section>
   </div>
 </template>
