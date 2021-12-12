@@ -2,45 +2,50 @@
   <div class="footer">
     <div class="row">
       <section class="col-3 mx-h">
-        <h2>Title</h2>
+        <div class="logo-box"></div>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
         </ul>
       </section>
       <section class="col-3 mx-h">
         <h2>Title</h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
         </ul>
       </section>
       <section class="col-3 mx-h">
         <h2>Title</h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
         </ul>
       </section>
       <section class="col-3 mx-h">
         <h2>Title</h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
+          <li>Ciao</li>
         </ul>
       </section>
+      <hr>
+      <div class="row">
+        <section> Copiright</section>
+        <section></section>
+      </div>
     </div>
   </div>
 </template>

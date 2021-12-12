@@ -4,7 +4,21 @@
     padding: 80px 20px;
     color: white;
     text-align: center;
+    hr{
+        width: 95%;
+        margin: auto;
+    }
     .mx-h{
         max-height: 800px;
+        .logo-box{
+            background-image: url('../assets/footer-logo-1.png');
+            object-fit: contain;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        li{
+            list-style: none;
+        }
     }
 }
