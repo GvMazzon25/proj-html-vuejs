@@ -1,10 +1,46 @@
 <template>
   <div class="footer">
     <div class="row">
-      <section class="col-3">ciao</section>
-      <section class="col-3"></section>
-      <section class="col-3"></section>
-      <section class="col-3"></section>
+      <section class="col-3 mx-h">
+        <h2>Title</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="col-3 mx-h">
+        <h2>Title</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="col-3 mx-h">
+        <h2>Title</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="col-3 mx-h">
+        <h2>Title</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
     </div>
   </div>
 </template>
