@@ -28,9 +28,9 @@
             </div>
             <div class="col-2 icon-box">
                 <div class="row">
-                    <section class="col-4">c</section>
-                    <section class="col-4">c</section>
-                    <section class="col-4">c</section>
+                    <section class="col-4"><i class="fa-solid fa-magnifying-glass"></i></section>
+                    <section class="col-4"><i class="fa-regular fa-clipboard"></i></section>
+                    <section class="col-4"><i class="fa-solid fa-bars"></i></section>
                 </div>
             </div>
        </div>

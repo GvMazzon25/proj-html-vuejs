@@ -1,5 +1,9 @@
 <template>
   <div class="contain">
+    <div class="top-box">
+        <div>^</div>
+        <div class="tp">TOP</div>
+    </div>
     <Section1 />
     <Section2 />
   </div>
