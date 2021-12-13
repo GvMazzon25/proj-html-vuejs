@@ -2,7 +2,7 @@
   <section class="col-3 mx-h">
         <div class="logo-box">
          <img :src="img" />
-         <h3>{{title}}</h3>
+         <h3>{{ title }}</h3>
         </div>
         <ul>
           <li>{{ txt1 }}</li>

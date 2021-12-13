@@ -30,45 +30,45 @@
 </template>
 
 <script>
-import FootCards from '../components/FootCards';
+import FootCards from '../components/FootCards.vue';
 
 export default {
   name:'Footer',
-  component:{
+  component: {
     FootCards,
   },
    data() {
     return {
       cards: [
         {
-          image:'',
-          text1:'',
-          text2:'',
-          text3:'',
-          text4:'',
-          text5:'',
-          text6:'',
+          image:'../assets/footer-logo-1.png',
+          text1:'Providing Life Changing',
+          text2:'Experiences Through',
+          text3:'Education. Class That Fit Your',
+          text4:'Busy Life. Closer to Home',
+          text5:'1-677-124-44227',
+          text6:'Mon-Sat 8.00-18.00',
         },
         {
-          title:'',
-          text1:'',
-          text2:'',
-          text3:'',
-          text4:'',
-          text5:'',
-          text6:'',
+          title:'Popular Courses',
+          text1:'Buisness English',
+          text2:'Preston Marshall',
+          text3:'Social Computing',
+          text4:'David Sanders',
+          text5:'Learn Spanish',
+          text6:'Jennie King',
         },
         {
-          title:'',
-          text1:'',
-          text2:'',
-          text3:'',
-          text4:'',
-          text5:'',
+          title:'Support',
+          text1:'User Dashboard',
+          text2:'Contact Us',
+          text3:'FAQ',
+          text4:'Course Offer',
+          text5:'Everits',
         },
         {
-          title:'',
-          image:''
+          title:'Flexible Learning',
+          image:'../assets/footer-img-1.png'
         }
         
       ]
