@@ -1,74 +1,60 @@
 <template>
   <div class="banner1">
     <div class="row">
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="b-box">
-          <section class="img-box">
-
-          </section>
-          <section class="txt-sec">
-            <h3>Text</h3>
-          </section>
-        </div>
-      </div>
-    </div>
+      <Slides v-for='slide in slides'
+              :key="slide"
+              :img='slide.image'
+              :id='slide.id'
+              :txt='slide.text'
+      />
+    </div>  
   </div>
 </template>
 
 <script>
-export default {
- name:'Section1'
+import Slides from '../components/Slides.vue'
 
+export default {
+ name:'Section1',
+ components:{
+   Slides
+ },
+ data() {
+   return {
+    slides: [
+      {
+        id:'1',
+        image: '../assets/h5-custom-icon-1.png',
+        text:'Languages',
+      },
+      {
+        id:'2',
+        img:'../assets/h5-custom-icon-2.png',
+        text:'Software',
+      },
+      {
+        id:'3',
+        img:'../assets/h5-custom-icon-3.png',
+        text:'Software',
+      },
+      {
+        id:'4',
+        img:'../assets/h5-custom-icon-4.png',
+        text:'Software',
+      },
+      {
+        id:'5',
+        img:'../assets/h5-custom-icon-5.png',
+        text:'Software',
+      },
+      {
+        id:'6',
+        img:'',
+        text:'Software',
+      },
+    ]
+   }
+ },
 }
 </script>
 
