@@ -11,6 +11,7 @@
          :txt4="card.text4"
          :txt5="card.text5"
          :txt6="card.text6"
+         :img2="card.image2"
       />
     </div>  
     <hr>
@@ -34,7 +35,7 @@ import FootCards from '../components/FootCards.vue';
 
 export default {
   name:'Footer',
-  component: {
+  components: {
     FootCards,
   },
    data() {
@@ -50,6 +51,7 @@ export default {
           text6:'Mon-Sat 8.00-18.00',
         },
         {
+          image:'',
           title:'Popular Courses',
           text1:'Buisness English',
           text2:'Preston Marshall',
@@ -59,6 +61,7 @@ export default {
           text6:'Jennie King',
         },
         {
+          image:'',
           title:'Support',
           text1:'User Dashboard',
           text2:'Contact Us',
@@ -68,7 +71,7 @@ export default {
         },
         {
           title:'Flexible Learning',
-          image:'../assets/footer-img-1.png'
+          image2:'../assets/footer-img-1.png'
         }
         
       ]
