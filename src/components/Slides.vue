@@ -2,10 +2,10 @@
   <div class="col-2">
         <div class="b-box">
           <section class="img-box">
-            <img :src="img">
+            <img :src="img" />
           </section>
           <section class="txt-sec">
-            <h3>{{ text }}</h3>
+            <h3>{{ txt }}</h3>
           </section>
         </div>
   </div>
@@ -16,8 +16,7 @@ export default {
     name:'Slides',
     props: {
         img: String,
-        id: String,
-        text: String,
+        txt: String,
     }
 }
 </script>

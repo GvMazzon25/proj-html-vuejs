@@ -1,11 +1,10 @@
 <template>
   <div class="banner1">
     <div class="row">
-      <Slides v-for='slide in slides'
-              :key="slide"
-              :img='slide.image'
-              :id='slide.id'
-              :txt='slide.text'
+      <Slides v-for="(slide, index) in slides"
+        :key='index'
+        :img='slide.image'
+        :txt='slide.text'
       />
     </div>  
   </div>
@@ -16,41 +15,35 @@ import Slides from '../components/Slides.vue'
 
 export default {
  name:'Section1',
- components:{
+ components: {
    Slides
  },
  data() {
    return {
     slides: [
       {
-        id:'1',
-        image: '../assets/h5-custom-icon-1.png',
+        image:'../assets/h5-custom-icon-1.png',
         text:'Languages',
       },
       {
-        id:'2',
-        img:'../assets/h5-custom-icon-2.png',
+        image:'../assets/h5-custom-icon-2.png',
         text:'Software',
       },
       {
-        id:'3',
-        img:'../assets/h5-custom-icon-3.png',
-        text:'Software',
+        image:'../assets/h5-custom-icon-3.png',
+        text:'Buisness',
       },
       {
-        id:'4',
-        img:'../assets/h5-custom-icon-4.png',
-        text:'Software',
+        image:'../assets/h5-custom-icon-4.png',
+        text:'Chemistry',
       },
       {
-        id:'5',
-        img:'../assets/h5-custom-icon-5.png',
-        text:'Software',
+        image:'../assets/h5-custom-icon-5.png',
+        text:'Science',
       },
       {
-        id:'6',
-        img:'',
-        text:'Software',
+        image:'../assets/h5-custom-icon-6.png',
+        text:'DIY&Crafts',
       },
     ]
    }
