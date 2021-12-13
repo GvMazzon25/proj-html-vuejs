@@ -5,7 +5,7 @@
             <img :src="img" />
           </section>
           <section class="txt-sec">
-            <h3>{{ txt }}</h3>
+            <h3>{{txt}}</h3>
           </section>
         </div>
   </div>

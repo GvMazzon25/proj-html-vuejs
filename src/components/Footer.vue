@@ -1,48 +1,17 @@
 <template>
   <div class="footer">
     <div class="row">
-      <section class="col-3 mx-h">
-        <div class="logo-box">
-         
-        </div>
-        <ul>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-        </ul>
-      </section>
-      <section class="col-3 mx-h">
-        <h2>Title</h2>
-        <ul>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-        </ul>
-      </section>
-      <section class="col-3 mx-h">
-        <h2>Title</h2>
-        <ul>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-        </ul>
-      </section>
-      <section class="col-3 mx-h">
-        <h2>Title</h2>
-        <ul>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-          <li>Ciao</li>
-        </ul>
-      </section>
+      <FootCards v-for="(card, index) in cards"
+         :key="index"
+         :img="card.image"
+         :title="card.title"
+         :txt1="card.text1"
+         :txt2="card.text2"
+         :txt3="card.text3"
+         :txt4="card.text4"
+         :txt5="card.text5"
+         :txt6="card.text6"
+      />
     </div>  
     <hr>
       <div class="row end-box">
@@ -61,8 +30,50 @@
 </template>
 
 <script>
+import FootCards from '../components/FootCards';
+
 export default {
-  name:'Footer'
+  name:'Footer',
+  component:{
+    FootCards,
+  },
+   data() {
+    return {
+      cards: [
+        {
+          image:'',
+          text1:'',
+          text2:'',
+          text3:'',
+          text4:'',
+          text5:'',
+          text6:'',
+        },
+        {
+          title:'',
+          text1:'',
+          text2:'',
+          text3:'',
+          text4:'',
+          text5:'',
+          text6:'',
+        },
+        {
+          title:'',
+          text1:'',
+          text2:'',
+          text3:'',
+          text4:'',
+          text5:'',
+        },
+        {
+          title:'',
+          image:''
+        }
+        
+      ]
+    }
+  }
 }
 </script>
 
