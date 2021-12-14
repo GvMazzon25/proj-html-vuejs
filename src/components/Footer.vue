@@ -42,7 +42,7 @@ export default {
     return {
       cards: [
         {
-          image:'../assets/footer-logo-1.png',
+          image:require('@/assets/footer-logo-1.png'),
           text1:'Providing Life Changing',
           text2:'Experiences Through',
           text3:'Education. Class That Fit Your',
@@ -71,7 +71,7 @@ export default {
         },
         {
           title:'Flexible Learning',
-          image2:'../assets/footer-img-1.png'
+          image2:require('@/assets/footer-img-1.png'),
         }
         
       ]

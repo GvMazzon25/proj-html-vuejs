@@ -6,16 +6,20 @@
          />
          <h3>{{ title }}</h3>
         </div>
-        <ul>
-          <li>{{ txt1 }}</li>
-          <li>{{ txt2 }}</li>
-          <li>{{ txt3 }}</li>
-          <li>{{ txt4 }}</li>
-          <li>{{ txt5 }}</li>
-          <li>{{ txt5 }}</li>
-          <li><img :src="img2"></li>
-        </ul>
-      </section>
+        <div class="ul-box">
+          <ul>
+            <li>{{ txt1 }}</li>
+            <li>{{ txt2 }}</li>
+            <li>{{ txt3 }}</li>
+            <li>{{ txt4 }}</li>
+            <li>{{ txt5 }}</li>
+            <li>{{ txt5 }}</li>
+            <li>
+              <img class="img2" :src="img2">
+            </li>
+          </ul>
+        </div>
+  </section>
 </template>
 
 <script>
@@ -35,22 +39,33 @@ export default {
 }
 </script>
 
-<style lang:'scss'>
+<style lang='scss'>
 .mx-h{
     max-height: 400px;
-    text-align: center;
+    text-align: center; 
+    margin-bottom: -300px;   
 }
 .logo-box{
-    width: 100%;
+    width: 300px;
     height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .img{
-        width: 100%;
-        height: 100%; 
+        width: 250px;
+        height: auto; 
         object-fit: contain;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-    }
+}
+.ul-box{
+  width: 300px;
+  height: 300px;
+  .img2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
 </style>
