@@ -1,0 +1,34 @@
+.row{
+    min-height: 700px;
+    .img-boxes{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        background-image: url('../assets/h1-img-8.jpg');
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .txt-bx{
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        color: black;
+        position: relative;
+        top: 25%;
+        font-size: 1.3rem;
+        h1{
+            font-size: 2.9rem;
+            margin-bottom: 15px;
+        }
+        .blue{
+            .col-6{
+                color: rgba(84, 172, 238, 1);
+                font-size: 1.8rem;
+                .number{
+                    font-size: 2.6rem;
+                }
+            }
+        }
+    }
+}

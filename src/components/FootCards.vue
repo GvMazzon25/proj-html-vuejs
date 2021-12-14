@@ -13,7 +13,7 @@
           <li>{{ txt4 }}</li>
           <li>{{ txt5 }}</li>
           <li>{{ txt5 }}</li>
-          <img :src="img2">
+          <li><img :src="img2"></li>
         </ul>
       </section>
 </template>
