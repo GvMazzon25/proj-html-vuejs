@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style lang:'scss'>
+.mx-h{
+    max-height: 400px;
+    text-align: center;
+}
 .logo-box{
     width: 100%;
     height: 40px;

@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="row">
+    <div class="row first-sec">
       <FootCards v-for="(card, index) in cards"
          :key="index"
          :img="card.image"
