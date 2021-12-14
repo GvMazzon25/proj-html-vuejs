@@ -2,7 +2,7 @@
   <div class="col-2">
         <div class="b-box">
           <section class="img-box">
-            <img :src="img" />
+            <img :src="img">
           </section>
           <section class="txt-sec">
             <h3>{{ txt }}</h3>
@@ -21,6 +21,6 @@ export default {
 }
 </script>
 
-<style lang:'scss'>
+<style lang='scss'>
 @import '@/style/section1.scss';
 </style>
