@@ -47,6 +47,6 @@ export default {
         object-fit: contain;
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: center;;
+        background-position: center;
     }
 </style>

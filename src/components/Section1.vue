@@ -2,9 +2,9 @@
   <div class="banner1">
     <div class="row">
       <Slides v-for="(slide, index) in slides"
-        :key='index'
-        :img='slide.image'
-        :txt='slide.text'
+        :key="index"
+        :img="slide.image"
+        :txt="slide.text"
       />
     </div>  
   </div>
